@@ -1,0 +1,21 @@
+{
+    "name": "geggleto/ethereum-ec-recover",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glenn Eggleton",
+            "email": "geggleto@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "7.4.*",
+        "kornrunner/keccak": "^1.0",
+        "ext-gmp": "*"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Ethereum\\": "src"
+        }
+    }
+}
